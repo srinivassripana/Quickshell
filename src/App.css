@@ -1,0 +1,151 @@
+.header {
+  padding: 10px 25px;
+  position: relative;
+  z-index: 1;
+}
+
+#headerButton {
+  background-color: white;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.headerFilter {
+  margin-top: 5px;
+  padding: 7px;
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  background-color: white;
+}
+
+label {
+  font-size: 14px;
+  color: #c0c0c0;
+  padding-right: 50px;
+}
+
+.Body {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.body-dimmed {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.MainCard {
+  flex: 0 0 300px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.ticket-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.SubCard {
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Feature {
+  border: 1px solid gainsboro;
+  width: 140px;
+  padding: 2px;
+}
+
+.outerFeature {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  color: #969191;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.MainCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left p {
+  margin-left: 8px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.SubcardHeader {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(97, 96, 96);
+  font-size: 14px;
+}
+
+.fontsizeinSubcard {
+  font-size: 14px;
+}
+.IconBody1 {
+  padding-right: 10px;
+  padding-top: 2px;
+}
+.IconBody2 {
+  padding-right: 5px;
+  padding-top: 3px;
+}
+.IconBody3 {
+  padding-top: 2px;
+  padding-right: 5px;
+}
